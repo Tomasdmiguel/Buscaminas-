@@ -1,0 +1,103 @@
+
+body{
+    margin: 0px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(41, 24, 196);
+}
+
+.buscaminas{
+    margin: 15px 100px;
+    display: inline-block;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 15px  rgb(0, 0, 0);
+}
+
+.columna{
+    border: 2px solid #122da7;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 0px;
+    padding: 0px;
+    background-color: #5b9aece0;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #ffffff;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: #0402ac;
+    padding: 0px;
+    border:none;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+}
+
+.buttonStart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+}
+
+.tabla{
+    margin: auto;
+    margin-top: -150px;
+}
+
+p{
+    padding:0px;
+    margin: 0px;
+}
+
+
+.boton{
+    padding: 20px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #2d2ae7;
+    font-weight: bold;
+    color: white;
+    box-shadow:  0px 0px 10px 3px #2734e2;
+}
+
+.perder {
+    background-color: black;
+    display: none;
+    padding: 25px 5px;
+    margin: auto;
+    width: 270px;
+    outline: 5px  solid #2657dd ;
+    outline-offset: -10px;
+    position: relative;
+    top: -200px;
+}
+
+.buttonJugar, .buttonSalir{
+    display: block;
+    margin: auto;
+    background-color: #2657dd;
+    padding: 15px 20px;
+    color: aliceblue;
+    
+}
+
+.buttonJugar{
+    margin-bottom:10px;
+}
+
+.buttonJugar:hover , .buttonSalir:hover, .botonInicio:hover,.button:hover{
+    background-color: #2239bd;
+    cursor: pointer;
+}
+
+
